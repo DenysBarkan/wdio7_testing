@@ -1,0 +1,49 @@
+{
+  "name": "wdio7_testing",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "wdio wdio.conf.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/DenysBarkan/wdio7_testing.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/DenysBarkan/wdio7_testing/issues"
+  },
+  "homepage": "https://github.com/DenysBarkan/wdio7_testing#readme",
+  "devDependencies": {
+    "@types/chai": "^4.2.13",
+    "@types/jquery": "^3.5.5",
+    "@types/mocha": "^8.2.1",
+    "@types/node": "^14.11.8",
+    "@wdio/allure-reporter": "^7.0.4",
+    "@wdio/cli": "^7.0.5",
+    "@wdio/devtools-service": "^7.0.5",
+    "@wdio/local-runner": "^7.0.5",
+    "@wdio/mocha-framework": "^7.0.4",
+    "@wdio/spec-reporter": "^7.0.4",
+    "@wdio/sync": "^7.0.5",
+    "@wdio/types": "^7.0.4",
+    "allure-commandline": "^2.13.0",
+    "aws-sdk": "^2.846.0",
+    "browserstack-local": "^1.4.5",
+    "chai": "^4.2.0",
+    "chromedriver": "^88.0.0",
+    "faker": "^5.1.0",
+    "md5-file": "^5.0.0",
+    "node-rest-client": "^3.1.0",
+    "node-wget": "^0.4.3",
+    "pg": "^8.2.1",
+    "sha256-file": "^1.0.0",
+    "ts-node": "^9.0.0",
+    "tsconfig-paths": "^3.9.0",
+    "typescript": "^4.1.5",
+    "wdio-chromedriver-service": "^6.0.4",
+    "wdio-json-reporter": "^2.0.0"
+  }
+}

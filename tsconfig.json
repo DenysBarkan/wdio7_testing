@@ -1,0 +1,27 @@
+{
+    "compilerOptions": {
+        // "baseUrl": ".",
+        "paths": {
+            "*": [
+                "./*"
+            ],
+            "src/*": [
+                "./src/*"
+            ]
+        },
+        "outDir": "./build",
+        "allowJs": true,
+        "types": [
+            "node",
+            "webdriverio/sync",
+            "@wdio/mocha-framework",
+            "@wdio/devtools-service",
+        ],
+        // "sourceMap": true,
+        "inlineSourceMap": true,
+        "target": "es2019",
+    },
+    // "include": [
+    //     "./test/**/*.ts"
+    // ]
+}
