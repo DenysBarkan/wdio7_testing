@@ -16,7 +16,7 @@ describe('My Login application', () => {
 
 
     it('testing autocomplete', ()=>{
-        // type browser.getU   pay attention to the autocomplete list
+        // type browser.getU   pay attention to the autocomplete lis
         
     })
 });
