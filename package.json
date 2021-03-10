@@ -36,7 +36,7 @@
     "chromedriver": "^89.0.0",
     "faker": "^5.1.0",
     "md5-file": "^5.0.0",
-    "node-rest-client": "^3.1.0",
+    "node-rest-client": "^1.4.4",
     "node-wget": "^0.4.3",
     "pg": "^8.2.1",
     "sha256-file": "^1.0.0",
