@@ -133,7 +133,12 @@ exports.config = {
         // ['allure', {
         //     outputDir: 'allure-results'
         // }],
-        // 'json'
+        ['json', {
+            outputDir: './Results',
+            outputFileFormat: function (opts) {
+                return `results-${opts.cid}.${opts.capabilities}.json`
+            }
+        }],
     ],
     //
     // Options to be passed to Mocha.
